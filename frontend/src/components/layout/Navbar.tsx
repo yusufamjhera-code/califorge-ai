@@ -6,10 +6,12 @@ import { Button } from '../ui/Button';
 import { useAuthStore } from '../../stores/authStore';
 
 const navLinks = [
-  { path: '/', label: 'Home' },
   { path: '/dashboard', label: 'Dashboard' },
-  { path: '/workout', label: 'Workout' },
+  { path: '/workout', label: 'Today' },
+  { path: '/plan', label: 'Weekly Plan' },
+  { path: '/exercises', label: 'Exercises' },
   { path: '/progress', label: 'Progress' },
+  { path: '/profile', label: 'Profile' },
 ];
 
 export const Navbar: React.FC = () => {

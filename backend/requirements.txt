@@ -1,0 +1,33 @@
+# CaliForge AI Backend Dependencies
+# FastAPI & Server
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.19
+
+# Database
+motor==3.7.0
+pymongo==4.10.1
+
+# Authentication
+firebase-admin==6.6.0
+
+# Data Validation & Settings
+pydantic==2.10.4
+pydantic-settings==2.7.1
+email-validator==2.2.0
+
+# Configuration
+python-dotenv==1.0.1
+
+# HTTP
+httpx==0.28.1
+
+# Date/Time
+python-dateutil==2.9.0
+
+# Security
+passlib==1.7.4
+python-jose[cryptography]==3.3.0
+
+# CORS
+starlette==0.41.3

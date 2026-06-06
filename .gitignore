@@ -1,0 +1,37 @@
+# Environments
+.env
+.env.local
+.env.*.local
+
+# Mac
+.DS_Store
+
+# Python / Backend
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/backend.log
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.eslintcache
+frontend/*.log
+frontend/.vite/
+
+# Firebase
+frontend/.firebase/
+frontend/firebase-debug.log
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# AI generated scripts
+sync_exercises.py

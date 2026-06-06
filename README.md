@@ -58,21 +58,28 @@ git clone https://github.com/yusufamjhera-code/califorge-ai.git
 cd califorge-ai
 ```
 
-### 2. Setup the Backend
+### 2. Setup Dependencies
+Before running the scripts, ensure you have installed the required dependencies:
 ```bash
+# Backend
 cd backend
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
-uvicorn app.main:app --reload
-```
+cd ..
 
-### 3. Setup the Frontend
-```bash
+# Frontend
 cd frontend
 npm install
-npm run dev
+cd ..
 ```
+
+### 3. Launch the App!
+We have provided convenient launcher scripts that will automatically start both the backend server and frontend development environment at the same time:
+
+- **Windows:** Double click `start.bat`
+- **Linux / Mac:** Run `./start.sh` in the terminal
+- **Mac (Automator):** Double click `Start CaliForge.app`
 
 ---
 <div align="center">
